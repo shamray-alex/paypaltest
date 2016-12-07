@@ -1,0 +1,43 @@
+PayPal File Sale
+----------------------------------------
+
+db - paypal
+db condig - common/config/main-local.php
+
+-----------------------------------------
+
+Start server
+
+$php yii serve -t="public_html"
+
+-----------------------------------------
+
+Task
+
+1. create a yii2 advanced website with user system (signup/signin)
+2. add purchase with paypal payment, button
+3. only after user paid, he can download a .zip file
+---
+* I don't care about UI design, just code design
+* You can use Yii Composer components if you want
+* Zip file content is irrelevant, just hold a mockup zip file in your server.
+* make code and project CLEAN and READABLE (remove unneeded code, write comments)
+
+------------------------------------------
+
+
+
+<td>txn_id</td>
+<td>txn_type</td>
+<td>mc_gross</td>
+<td>mc_currency</td>
+<td>quantity</td>
+<td>payment_date</td>
+<td>payment_status</td>
+<td>business</td>
+<td>receiver_email</td>
+<td>payer_id</td>
+<td>payer_email</td>
+<td>relation_id</td>
+<td>relation_type</td>
+<td>created_date</td>
